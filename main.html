@@ -8,19 +8,33 @@
 
 <body>
 	<h1>My<span id="third">Book</span>List</h1>
-	<form method="post">
-		<label for="title" >Title</label>
-		<input class="info" type="text" name="title" style="border-bottom:1px solid blue">
-		<br>
-		<label for="author">Author</label>
-		<input class="info" type="text" name="author" style="border-bottom:1px solid blue">
-		<br>
-		<label for="ISBN">ISBN#</label>
-		<input type="number" class="info" name="ISBN" style="border-bottom:1px solid blue">
-		<br>
-		<button type="submit" class="btn">Add Book</button>
-		<br>
-	</form>
+	<div class="form-group">
+		<form method="post">
+			<label for="title" >Title</label>
+			<input id="title" class="info" type="text" name="title" style="border-bottom:1px solid blue">
+			<br>
+			<label for="author">Author</label>
+			<input id="author" class="info" type="text" name="author" style="border-bottom:1px solid blue">
+			<br>
+			<label for="ISBN">ISBN#</label>
+			<input id="isbn" type="number" class="info" name="ISBN" style="border-bottom:1px solid blue">
+			<br>
+			<button  type="submit" id="submit" id="addbtn">Add Book</button>
+			<br>
+		</form>
+	</div>
+	
+	<table class="table table-striped" style="width:90%">
+		<thead id="book-list">
+			<th >Title</th>
+			<th >Author</th>
+			<th >ISBN#</th>
+			<th ></th>
+		</thead>
+		<tbody id="tbody">
+			
+		</tbody>
+	</table>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>

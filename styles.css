@@ -2,3 +2,9 @@
 #third{
 	color:blue;
 }
+.btn{
+	background-color:blue;
+	color:white;
+	border-radius:5px;
+	padding:5px;
+}
