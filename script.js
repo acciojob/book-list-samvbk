@@ -2,8 +2,8 @@
 const titleInput = document.getElementById("title");
 const authorInput = document.getElementById("author");
 const isbnInput = document.getElementById("isbn");
-const addBtn = document.getElementById("addbtn");
-const tableBody = document.getElementById("tbody");
+const addBtn = document.getElementById("submit");
+const tableBody = document.getElementById("book-list");
 
 addBtn.addEventListener(click,function () {
 	const titleValue = titleInput.value.trim();
